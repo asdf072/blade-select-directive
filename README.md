@@ -16,7 +16,8 @@ Two directives to help with select elements in blade.
 
 `$arr` can be single-dimensional array received from `$collection->pluck('name','id')`, etc OR
 a collection/array of objects such as Eloquent models. This assumes the display property is
-`name`, but can be changed in third parameter.
+`name`, but can be changed in third parameter. The property to be compared is always assumed
+to be `id`.
 
 ```
 <select>
