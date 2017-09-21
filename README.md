@@ -27,4 +27,5 @@ to be `id`.
 
 ## Installation
 Custom directives are currently (5.4) stored in the App\Providers\AppServiceProvider::boot() method.
-You can copy/paste them there.
+You can copy/paste them there. Make sure to include `use Illuminate\Support\Facades\Blade;` at
+the top of the file.
